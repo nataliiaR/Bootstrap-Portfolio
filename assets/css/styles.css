@@ -11,7 +11,7 @@
     }
 }
 
-@media (min-width: 577px) and (max-width: 698px){
+@media (min-width: 577px){
     .custom-span-color{
         background-color:orange;
         color:white;
@@ -23,11 +23,6 @@
     }
 }
 
-@media(mix-width: 699px){
-    .image-size{
-        max-width: 40%;
-    }
-}
 .section-header{
     color: orange;
     font-weight: bold;
