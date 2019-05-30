@@ -31,6 +31,9 @@
     margin-bottom: 0.5em;
     
 }
+a.nav-link{
+    color:orange;
+}
 a.link-color{
     color:orange;
 }
