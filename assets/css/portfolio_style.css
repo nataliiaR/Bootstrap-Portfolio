@@ -1,0 +1,32 @@
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 100%;
+  }
+  
+  
+ .card-deck .card {
+  
+    min-width: 260px;
+  }
+  
+  .btn-portfolio{
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+  }
+
+
+  @media (max-width:810px){
+    .card{
+      max-width: 60%;
+      margin: auto;
+    }
+  }
