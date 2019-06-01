@@ -57,6 +57,11 @@ a.open{
 
             font-size: 18px;
         }
+
+        .card{
+            max-width: 60%;
+            margin: auto;
+        }
     }
     
     @media (min-width: 577px){

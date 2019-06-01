@@ -1,26 +1,27 @@
 html {
   font-size: 14px;
 }
-
-.card{
-
-  margin:auto;
-  min-width: 260px;
-}
-.container {
-  max-width: 100%;
-}
-
-.card-deck {
-  min-width: 260px;
-}
-
-
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 
+}
+
+.container {
+  max-width: 100%;
+}
+
+.card-deck .card {
+  min-width: 260px;
+}
+
+
+@media (max-width:830px){
+  .card{
+    max-width: 60%;
+    margin: auto;
+  }
 }
 
 @media (min-width:831px){
@@ -29,12 +30,6 @@ html {
     margin: auto;
   }
 
-}
-@media (max-width:830px){
-  .card{
-    max-width: 60%;
-    margin: auto;
-  }
 }
 
 
