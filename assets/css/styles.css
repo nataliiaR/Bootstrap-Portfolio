@@ -1,39 +1,21 @@
-@media (max-width: 576px){
 
-.custom-background-color{
-    background-color:orange;
-     color:white;
-     font-weight: bold;
-    }
-    .image-size{
-        max-width: 60%;
-    }
-
-    .card{
-        max-width: 60%;
-        margin:auto;
-    }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
-@media (min-width: 577px){
-    .custom-span-color{
-        background-color:orange;
-        color:white;
-        padding: 1em;
-        font-weight: bold;
-    }
-    .image-size{
-        max-width: 60%;
-    }
 
+footer{
+    background-color: darkgray;
+    color:white;
 }
 
 .section-header{
     color: orange;
     font-weight: bold;
-    padding-bottom:0.1em;
+    padding-bottom:0.4em;
     border-bottom: 0.03em solid lightgray;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     
 }
 a.nav-link{
@@ -42,13 +24,49 @@ a.nav-link{
 a.link-color{
     color:orange;
 }
-a:hover{
-    color: lightgrey;
-}
+
 a:visited{
     color:orange;
+}
+a:hover{
+    color: lightgrey;
+    text-decoration: none;
 }
 a.open{
     color: orange;
     font-weight: bold;
 }
+
+.btn-portfolio{
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+  }
+@media (max-width: 576px){
+
+    .custom-background-color{
+        background-color:orange;
+         color:white;
+         font-weight: bold;
+        }
+        .image-size{
+            max-width:70%;
+            align-content: center;
+        }
+    
+    }
+    
+    @media (min-width: 577px){
+        .custom-span-color{
+            background-color:orange;
+            color:white;
+            padding: 0.5em;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .image-size{
+            max-width: 60%;
+            align-content: center;
+        }
+    
+    }
