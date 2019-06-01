@@ -51,9 +51,12 @@ a.open{
         }
         .image-size{
             max-width:70%;
-            align-content: center;
+            margin: auto;
         }
-    
+        .custom-span-color{
+
+            font-size: 18px;
+        }
     }
     
     @media (min-width: 577px){
@@ -63,6 +66,7 @@ a.open{
             padding: 0.5em;
             font-weight: bold;
             font-size: 24px;
+            min-width: 200px;
         }
         .image-size{
             max-width: 60%;
