@@ -4,6 +4,12 @@ body{
     font-size: 18px;
 }
 
+img{
+    width: 400px;
+}
+label{
+    color: #4C4C4C;
+}
 
 footer{
     background-color: darkgray;
@@ -42,6 +48,15 @@ a.open{
     color:white;
     font-weight: bold;
   }
+
+.btn-portfolio:hover{
+    color:#4C4C4C;
+}
+
+.btn-portfolio:focus{
+    color:#4C4C4C;
+}
+
 @media (max-width: 576px){
 
     .custom-background-color{
@@ -50,7 +65,7 @@ a.open{
          font-weight: bold;
         }
         .image-size{
-            max-width:70%;
+            max-width:60%;
             margin: auto;
         }
         .custom-span-color{
